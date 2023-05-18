@@ -1,0 +1,12 @@
+name: Sample Jobs MacOs
+
+on: [push]
+
+jobs:
+    run-github-action-xcode:
+      runs-on: macos-latest
+      steps:
+          - name: Just saying hello
+            run: echo "Hello Wolrd"
+
+        
